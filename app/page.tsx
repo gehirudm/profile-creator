@@ -208,12 +208,12 @@ export default function ProfileCreator() {
   return (
     <div className="min-h-screen bg-background p-4">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-8 text-foreground">Profile Image Creator</h1>
+        <h1 className="text-3xl font-bold text-center mb-8 text-foreground">$WIWI PFP GENERATOR</h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Sidebar Controls */}
           <div className="lg:col-span-1">
-            <Card className="p-6 space-y-6">
+            <Card className="p-6">
               {renderAvatarFeature("backgrounds", "BACKGROUND")}
               {renderAvatarFeature("clothes", "CLOTHES")}
               {renderAvatarFeature("chain", "CHAIN")}
@@ -237,7 +237,7 @@ export default function ProfileCreator() {
                   />
                 </div>
 
-                <div className="flex gap-4 w-full max-w-md">
+                <div className="flex flex-col gap-4 w-full max-w-md">
                   <Button
                     onClick={generateRandom}
                     variant="outline"
