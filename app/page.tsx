@@ -116,8 +116,8 @@ export default function ProfileCreator() {
     if (!ctx) return
 
     // Set canvas size
-    canvas.width = 400
-    canvas.height = 400
+    canvas.width = 3000
+    canvas.height = 3000
 
     // Clear canvas
     ctx.clearRect(0, 0, canvas.width, canvas.height)
